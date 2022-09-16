@@ -1,0 +1,158 @@
+/*
+#e4eaf2 pozadí menu, patičky 
+#000a18 barva nadpisů, odkazů
+#00285e barva textu, aktivních odkazů
+#cccccc linka
+#eef2f7 pozadí 1 hlavní
+#ffffff pozadí 2 vedlejší a pozadí aktivního menu
+*/
+
+body {
+    color: #00285e;
+    background-color: #eef2f7;
+    line-height: 1.5;
+    font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3 {
+    color: #000a18;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0;
+}
+
+h2 {
+	margin-top: 0;
+	font-size: 24px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+a {
+    color: #000a18;
+	font-style: italic;
+}
+
+header {
+	padding: 50px 30px;
+	text-align: center;
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #e4eaf2;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	display: inline-block;
+	color: #00285e;
+	font-style: normal;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 10px;
+}
+
+.menu a:hover, a:focus, a:active {
+	background-color: #ffffff;
+}
+
+section {
+    padding: 30px 15%;
+	overflow: auto;
+}
+
+.profil {
+	background-color: #ffffff;
+}
+
+.profil p {
+	text-align: center;
+	text-decoration: none;
+}
+
+.profil p:nth-child(3) {
+	margin-bottom: 30px;
+}
+
+.profil a {
+	text-decoration: none;
+}
+
+.foto-profilovka {
+    width: 200px;
+    border-radius: 20px;
+	border: 1px solid #cccccc;
+	float: left;
+	margin: 0 20px 20px 0; 
+}
+
+.icon-mobile, .icon-mail {
+	width: 26px;
+}
+
+span {
+	margin: 0 20px;
+}
+
+.prace {
+	background-color: #ffffff;
+}
+
+.foto-projekt {
+    width: 450px;
+	float: right;
+	margin: 0 20px 20px 0;
+}
+
+.skoleni h3 {
+	margin-bottom: 0;
+}
+
+.skoleni p {
+	margin-top: 0;
+}
+
+.projekty {
+	border-top: 1.5px dashed #cccccc;
+}
+
+.fotogalerie, .zajmy {
+	background-color: #ffffff;
+}
+
+.fotogalerie p {
+	text-align: center;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 1px solid #cccccc;
+}
+
+.foto-education {
+    width: 250px;
+	float: right;
+	margin: 0 0 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+	border-top: 1px solid #cccccc;
+}
